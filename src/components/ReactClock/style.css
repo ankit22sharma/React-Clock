@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: black;
+}
+.Options{
+    display: flex;
+    font-size: 30px;
+    margin-top:30px;
+}
+.view{
+    background-color: black;
+    margin-top: 50px;
+    height: 325px;
+    width:325px;
+    border-radius: 50%;
+    color: #3299CC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.timeView{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+}
+.dateView{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.toggle-inactive{
+  width: 50px;
+  height:30px;
+  background: gray;
+  margin-right: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+}
+.inner-circle{
+  width: 23px;
+  height: 23px;
+  background: white;
+  border-radius: 50%;
+  margin-left: 2px;
+  transition: all 200ms ease-in-out;
+}
+.toggle-active{
+  width: 50px;
+  height:30px;
+  background: #3299CC;
+  margin-right: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+}
+
+.toggle-active>.inner-circle{
+  margin-left:25px;
+  transition: all 200ms ease-in-out;
+}
